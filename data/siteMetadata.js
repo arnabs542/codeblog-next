@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Tech blog',
+  title: 'Simplify Codes',
   author: 'Ashish Ranjan',
-  headerTitle: 'TailwindBlog',
+  headerTitle: 'Simplify Codes',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -10,9 +10,9 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'simplifycodes@gmail.com',
+  github: 'https://github.com/ashishnitw',
+  twitter: 'https://twitter.com/simplifycodes',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
