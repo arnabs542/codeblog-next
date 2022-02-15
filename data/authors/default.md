@@ -4,7 +4,7 @@ avatar: /static/images/avatar.png
 occupation: Senior Software Engineer
 company: PayU
 email: ashishnitw14@gmail.com
-twitter: https://twitter.com/Twitter
+twitter: https://twitter.com/ashishthetic
 linkedin: https://www.linkedin.com/in/ashishnitw
 github: https://github.com/ashishnitw
 ---
