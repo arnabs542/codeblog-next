@@ -8,6 +8,7 @@ const DEFAULT_LAYOUT = 'PostLayout'
 
 export async function getStaticPaths() {
   const posts = getFiles('blog')
+  console.log(posts);
   return {
     paths: posts.map((p) => ({
       params: {
@@ -40,9 +41,9 @@ export async function getStaticProps({ params }) {
   return { props: { post, authorDetails, prev, next } }
 }
 
-export default function Blog({ post, authorDetails, prev, next }) {
+export default function BlogPage({ post, authorDetails, prev, next }) {
   const { mdxSource, toc, frontMatter } = post
-
+  
   return (
     <>
       {frontMatter.draft !== true ? (

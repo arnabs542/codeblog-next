@@ -13,7 +13,7 @@ export default function Courses() {
             Courses
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Showcase your Courses with a hero image (16 x 9)
+            List of all courses
           </p>
         </div>
         <div className="container py-12">
