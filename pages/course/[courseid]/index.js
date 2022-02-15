@@ -1,9 +1,25 @@
 import PageTitle from "@/components/PageTitle";
-import { useRouter } from "next/router";
 
-export default function CoursePage({}) {
-  const router = useRouter();
-  console.log('CoursePage', router.query);
+// export async function getStaticPaths() {
+//   const posts = getFiles('course')
+//   console.log(posts);
+//   return {
+//     paths: posts.map((p) => ({
+//       params: {
+//         slug: formatSlug(p).split('/'),
+//       },
+//     })),
+//     fallback: false,
+//   }
+// }
+
+// export async function getStaticProps({ params }) {
+//   const post = await getFileBySlug('course', params.slug.join('/'))
+//   return { props: { post } }
+// }
+
+export default function CoursePage({ post }) {
+  console.log(post);
   return (
     <>
       <div className="mt-24 text-center">

@@ -19,4 +19,4 @@ const CustomLink = ({ href, ...rest }) => {
   return <a target="_blank" rel="noopener noreferrer" href={href} {...rest} />
 }
 
-export default CustomLink
+export default CustomLink;
