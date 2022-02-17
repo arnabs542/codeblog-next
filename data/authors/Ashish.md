@@ -1,12 +1,12 @@
 ---
-name: Simplify Codes
+name: Ashish Ranjan
 avatar: /static/images/avatar.png
-occupation: ''
-company: ''
-email: simplifycodes@gmail.com
-twitter: https://twitter.com/simplifycodes
-linkedin: https://www.linkedin.com/in/simplifycodes
-github: https://github.com
+occupation: Senior Software Engineer
+company: PayU
+email: ashishnitw14@gmail.com
+twitter: https://twitter.com/ashishthetic
+linkedin: https://www.linkedin.com/in/ashishnitw
+github: https://github.com/ashishnitw
 ---
 
 Ashish Ranjan is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
