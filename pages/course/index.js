@@ -1,5 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
-import courseData from '@/data/courseData'
+import courseData from '@/data/course/courseList'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 
@@ -24,7 +24,7 @@ export default function Courses() {
                 title={d.title}
                 description={d.description}
                 imgSrc={d.imgSrc}
-                href={d.href}
+                href={`/course/${d.slug}`}
               />
             ))}
           </div>
