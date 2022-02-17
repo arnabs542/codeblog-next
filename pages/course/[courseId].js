@@ -17,9 +17,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  console.log(params);
   const topics = await getAllCourseFrontMatter(params.courseId);
-  console.log(topics);
   return { props: { topics: topics, courseId: params.courseId } }
 }
 

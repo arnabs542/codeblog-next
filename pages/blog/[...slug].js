@@ -8,7 +8,6 @@ const DEFAULT_LAYOUT = 'PostLayout'
 
 export async function getStaticPaths() {
   const posts = getFiles('blog')
-  console.log(posts);
   return {
     paths: posts.map((p) => ({
       params: {
